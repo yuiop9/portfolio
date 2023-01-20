@@ -1,0 +1,41 @@
+  
+ body{font-family: 'Montserrat','Spoqa Han Sans Neo', sans-serif;} 
+  header {width: 100%; height: 30px;
+    background-color: aqua;
+    height: 60px;
+}
+  .nav {width: 100%; height: 40px;
+      font-weight: 600;
+      font-size: 2em;
+      color: #ffff;
+      text-align: center;
+      line-height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: blue;
+      }
+  .nav li{ width: 30%;}
+
+  /*네비 끝*/
+
+  section{
+    margin: 5%;
+    margin-top: 100px;
+    overflow:hidden;
+    }
+  section p{
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 50px;}
+  .container{
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;   
+                  grid-template-rows: 1fr 1fr 1fr;           
+                  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+                  grid-template-rows: repeat(3, minmax(300px, auto));
+                  }
+  .container .item{background-color: blueviolet;}
+  .ad .container a:nth-child(1){background-color: aqua;}
+
+  
